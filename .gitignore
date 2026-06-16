@@ -1,16 +1,56 @@
 # 虚拟环境
 .venv/
+venv/
+ENV/
+
 # Python 缓存
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Scrapy 运行时(缓存)
+.scrapy/
+scrapy.log
+
 # IDE 配置
 .vscode/
-# macOS 系统文件
+.idea/
+.history/
+*.iml
+
+# macOS 系统文件/操作系统隐藏文件
 .DS_Store
+Thumbs.db
+desktop.ini
 
 # 敏感信息
 .env
+.env.*
 secrets.py
+*_auth.json
+zhihu_auth.json
 
 # 日志文件
 *.log
+
+# 数据文件
+*.jl
+*.json
+*.db
+*.sqlite
+data/
+output/
+temp/
+
+# 临时文件和压缩包
+*.tmp
+*.zip
+*.tar.gz
+*.7z
+
+# 测试和建构
+test.py
+*.egg-info/
+dist/
+build/
