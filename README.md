@@ -1,3 +1,3 @@
-# crawler
+# 知乎热榜爬虫
 
-基于 Scrapy 的知乎热榜爬虫，支持 MongoDB + MySQL 双存储。
+基于 Scrapy 的知乎热榜数据采集项目，支持问题列表抓取、问题详情解析、回答内容提取，数据可存储至 MongoDB 和 MySQL。
