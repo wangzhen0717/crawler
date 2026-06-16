@@ -30,6 +30,8 @@ desktop.ini
 secrets.py
 *_auth.json
 zhihu_auth.json
+# 保留模板文件
+!.env.example
 
 # 日志文件
 *.log
